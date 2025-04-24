@@ -29,7 +29,7 @@ class Cliente(Persona): Jaime Alfonso cisneros chama
 def crear_cliente():
     nombre_cl = input("Ingrese su nombre: ")
     apellido_cl = input("Ingrese su apellido: ")
-    numero_cuenta = input("Ingrese su numero de cuenta: ")
+    numero_cuenta = input("Ingrese su numero de cuenta: ")722969070995968732
     cliente = Cliente(nombre_cl, apellido_cl, numero_cuenta)
     return cliente
 
@@ -47,8 +47,8 @@ def inicio():
             monto_dep = int(input("Monto a depositar: "))
             mi_cliente.depositar(monto_dep)
         elif opcion == 'r':
-            monto_ret = int(input("Monto a retirar: "))
-            mi_cliente.retirar(monto_ret)
+            monto_ret = int(input("Monto a retirar:40,000 "))
+            mi_cliente.retirar(monto_ret)40,0000
         print(mi_cliente)
 
     print("Gracias por operar en el Banco de Richard hecho en Python.")
