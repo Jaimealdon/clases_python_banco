@@ -23,7 +23,7 @@ class Cliente(Persona): Jaime Alfonso cisneros chama
             self.balance -= monto_retiro
             print("Retiro realizado")
         else:
-            print("Fondos insuficientes")
+            print("Fondos suficientes ")
 
 
 def crear_cliente():
@@ -39,7 +39,7 @@ def inicio():
     print(mi_cliente)
     opcion = 0
 
-    while opcion != 's':
+    while opcion != 's': tranferencia 
         print('Elije: Depositar (d), Retirar (r), o Salir (s)')
         opcion = input().lower()
 
