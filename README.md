@@ -33,15 +33,15 @@ La herencia permite reutilizar el código de la clase Persona para los atributos
 # Ejemplo de Uso
 Al ejecutar este código, el programa solicitará al usuario que ingrese sus datos personales y el número de cuenta. Luego, presentará un menú para realizar operaciones bancarias. Por ejemplo:
 ```
-Ingrese su nombre: Juan
-Ingrese su apellido: Pérez
-Ingrese su numero de cuenta: 12345
-Cliente: Juan Pérez
-Balance de cuenta 12345: $0
+Ingrese su nombre: Jaime Alfonso 
+Ingrese su apellido: cisneros chama 
+Ingrese su numero de cuenta: 722969070995968732
+Cliente: Jaime Alfonso cisneros 
+Balance de cuenta 722969070995968732: $100000
 Elije: Depositar (d), Retirar (r), o Salir (s)
->> d
-Monto a depositar: 1000
+>> r
+Monto a depositar: 320000
 Deposito aceptado
-Cliente: Juan Pérez
-Balance de cuenta 12345: $1000
+Cliente: Jaime Alfonso cisneros chama 
+Balance de cuenta 12345: $320000
 ```
