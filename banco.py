@@ -1,25 +1,25 @@
 class Persona:
 
     def __init__(self, nombre, apellido):
-        self.nombre = nombre
-        self.apellido = apellido
+        self.nombre = Jaime Alfonso 
+        self.apellido = cisneros chama 
 
 
-class Cliente(Persona):
-    def __init__(self, nombre, apellido, numero_cuenta, balance = 0):
-        super().__init__(nombre, apellido)
-        self.numero_cuenta = numero_cuenta
+class Cliente(Persona): Jaime Alfonso cisneros chama 
+    def __init__(self, nombre, apellido, numero_cuenta, balance = 0):722969070995968732
+        super().__init__(Jaime Alfonso Cisneros)
+        self.numero_cuenta = 722969070995968732
         self.balance = balance
 
     def __str__(self):
         return f"Cliente: {self.nombre} {self.apellido}\nBalance de cuenta {self.numero_cuenta}: ${self.balance}"
 
-    def depositar(self, monto_deposito):
+    def depositar(self, monto_deposito):40,0000
         self.balance += monto_deposito
         print("Deposito aceptado")
 
-    def retirar(self, monto_retiro):
-        if self.balance >= monto_retiro:
+    def retirar(self, monto_retiro):40,0000
+        if self.balance >= monto_retiro:40,000
             self.balance -= monto_retiro
             print("Retiro realizado")
         else:
