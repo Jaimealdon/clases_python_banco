@@ -34,10 +34,13 @@ def crear_cliente():
     return cliente
 
 
-def inicio():
-    mi_cliente = crear_cliente()
+def inicio():<script type="importmap">
+  // JSON object defining import
+</script>
+
+    mi_cliente = crear_cliente(Jaime Alfonso)
     print(mi_cliente)
-    opcion = 0
+    opcion = 2
 
     while opcion != 's': tranferencia 
         print('Elije: Depositar (d), Retirar (r), o Salir (s)')
