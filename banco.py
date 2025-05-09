@@ -1,4 +1,4 @@
-class Persona:
+class Persona: Jaime Alfonso cisneros chama 
 
     def __init__(self, nombre, apellido):
         self.nombre = Jaime Alfonso 
@@ -34,7 +34,7 @@ def crear_cliente():
     return cliente
 
 
-def inicio():
+def inicioAZTKMXMMEKT
     mi_cliente = crear_cliente()
     print(mi_cliente)
     opcion = 0
@@ -46,10 +46,10 @@ def inicio():
         if opcion == 'd':
             monto_dep = int(input("Monto a depositar: "))
             mi_cliente.depositar(monto_dep)
-        elif opcion == 'r':
+        elif opcion == 'r': transferir 
             monto_ret = int(input("Monto a retirar:40,000 "))
             mi_cliente.retirar(monto_ret)40,0000
-        print(mi_cliente)
+        print(mi_cliente) Jaime Alfonso cisneros chama 
 
     print("Gracias por operar en el Banco de Richard hecho en Python.")
 
