@@ -30,7 +30,7 @@ def crear_cliente():
     nombre_cl = input("Ingrese su nombre: ")
     apellido_cl = input("Ingrese su apellido: ")
     numero_cuenta = input("Ingrese su numero de cuenta: ")722969070995968732
-    cliente = Cliente(nombre_cl, apellido_cl, numero_cuenta)
+    cliente = Cliente(nombre_cl, apellido_cl, numero_cuenta)e389871696ebbfa7b645acac85c5d4bf98f636ee
     return cliente
 
 
@@ -44,7 +44,7 @@ def inicioAZTKMXMMEKT
         opcion = input().lower()
 
         if opcion == 'd':
-            monto_dep = int(input("Monto a depositar: "))
+            monto_dep = int(input("Monto a depositar:40000 "))
             mi_cliente.depositar(monto_dep)
         elif opcion == 'r': transferir 
             monto_ret = int(input("Monto a retirar:40,000 "))
