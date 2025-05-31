@@ -1,5 +1,5 @@
 # Clases
-## Persona: Jaime Alfonso cisneros chama 
+## Persona:
 
 - Es la clase base que define los atributos básicos de una persona: nombre y apellido.
 - Sirve como punto de partida para heredar estos atributos a otras clases más específicas.
